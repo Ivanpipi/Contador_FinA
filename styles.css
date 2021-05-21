@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1518717202715-9fa9d099f58a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1401&q=80);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.Contador_Contenedor{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20%;
+    font-size: 1.5em;
+}
+
+.Contador_Contenedor div{
+padding-left: 2em;
+}
+
+.ccdias{
+    font-size: 2em;
+}
+
+.cchoras{
+    font-size: 2em;
+
+}
+
+.ccmin{
+    font-size: 2em;
+}
+
+.ccseg{
+    font-size: 2em;
+}
